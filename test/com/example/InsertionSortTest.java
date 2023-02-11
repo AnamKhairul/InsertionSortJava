@@ -25,7 +25,7 @@ class InsertionSortTest {
 	void testSortDescending() {
 		InsertionSort is = new InsertionSort();
 		int[] input = {5, 3, 7};
-		int[] output = is.sort(input, true);
+		int[] output = is.sort(input, false);
 		assertEquals(output[0], 7);
 	}
 
